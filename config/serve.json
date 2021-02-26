@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://opax.sharepoint.com/teams/SharePointFramework/_Layouts/15/Workbench.aspx",
+      "customActions": {
+        "d911f9e5-1594-4abf-afaa-eff561858021": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "reactAppCustomizer": {
+      "pageUrl": "https://opax.sharepoint.com/teams/SharePointFramework/_Layouts/15/Workbench.aspx",
+      "customActions": {
+        "d911f9e5-1594-4abf-afaa-eff561858021": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
